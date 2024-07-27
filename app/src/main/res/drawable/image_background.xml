@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background rectangle -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#FFFFFF"/>
+            <corners android:radius="8dp"/>
+        </shape>
+    </item>
+    <!-- Cross icon -->
+    <item>
+        <vector xmlns:android="http://schemas.android.com/apk/res/android"
+            android:width="75dp"
+            android:height="75dp"
+            android:viewportWidth="75"
+            android:viewportHeight="75">
+            <path
+                android:strokeWidth="1"
+                android:pathData="M37,22L37,52"
+                android:fillColor="#00000000"
+                android:strokeColor="#58B3F5"/>
+            <path
+                android:strokeWidth="1"
+                android:pathData="M21.5,36.5L51.5,36.5"
+                android:fillColor="#00000000"
+                android:strokeColor="#58B3F5"/>
+        </vector>
+    </item>
+</layer-list>
